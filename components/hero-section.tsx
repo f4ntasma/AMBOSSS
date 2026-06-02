@@ -39,7 +39,7 @@ export default function HeroSection() {
         <motion.div variants={itemVariants} className="mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-secondary">
             <BookOpen className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-foreground/80">Medical Education Platform</span>
+            <span className="text-sm font-medium text-foreground/80">Plataforma de Educación Médica</span>
           </div>
         </motion.div>
 
@@ -47,14 +47,14 @@ export default function HeroSection() {
           variants={itemVariants}
           className="text-5xl md:text-6xl font-bold tracking-tight mb-6"
         >
-          Master Medical Knowledge with <span className="text-primary">MedEd</span>
+          Domina el Conocimiento Médico con <span className="text-primary">MedEd</span>
         </motion.h1>
 
         <motion.p
           variants={itemVariants}
           className="text-xl text-foreground/70 mb-8 max-w-2xl mx-auto"
         >
-          Comprehensive study resources, clinical cases, exam preparation tools, and a supportive community for medical students. Your complete companion for medical education success.
+          Recursos de estudio integrales, casos clínicos, herramientas de preparación para exámenes y una comunidad solidaria para estudiantes de medicina. Tu compañero completo para el éxito en la educación médica.
         </motion.p>
 
         <motion.div
@@ -62,11 +62,11 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            Explore Resources
+            Explorar Recursos
             <ArrowRight className="ml-2 w-4 h-4" />
           </Button>
           <Button size="lg" variant="outline">
-            Learn More
+            Saber más
           </Button>
         </motion.div>
 
@@ -77,16 +77,16 @@ export default function HeroSection() {
         >
           {[
             {
-              title: 'Study Notes',
-              description: 'Organized clinical and basic science notes',
+              title: 'Notas de Estudio',
+              description: 'Notas clínicas y de ciencias básicas organizadas',
             },
             {
-              title: 'Clinical Cases',
-              description: 'Real-world scenarios for practical learning',
+              title: 'Casos Clínicos',
+              description: 'Escenarios del mundo real para aprendizaje práctico',
             },
             {
-              title: 'Exam Prep',
-              description: 'ENAM, ECOE, and internship preparation',
+              title: 'Preparación de Exámenes',
+              description: 'Preparación para ENAM, ECOE e internados',
             },
           ].map((feature, index) => (
             <motion.div

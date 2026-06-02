@@ -35,18 +35,18 @@ export default function ContactSection() {
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
-      label: 'Email',
-      value: 'contact@meded.com',
+      label: 'Correo',
+      value: 'contacto@meded.com',
     },
     {
       icon: <Phone className="w-6 h-6" />,
-      label: 'Phone',
-      value: '+1 (555) 123-4567',
+      label: 'Teléfono',
+      value: '+52 (555) 123-4567',
     },
     {
       icon: <MapPin className="w-6 h-6" />,
-      label: 'Location',
-      value: 'Mexico City, Mexico',
+      label: 'Ubicación',
+      value: 'Ciudad de México, México',
     },
   ]
 
@@ -60,10 +60,10 @@ export default function ContactSection() {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-            Get in Touch
+            Ponte en Contacto
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl">
-            Have questions, suggestions, or want to contribute? We&apos;d love to hear from you.
+            ¿Tienes preguntas, sugerencias o quieres contribuir? Nos encantaría saber de ti.
           </p>
         </motion.div>
 
@@ -106,28 +106,28 @@ export default function ContactSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label className="text-sm font-medium text-foreground mb-2 block">
-                      Full Name
+                      Nombre Completo
                     </label>
                     <Input
                       type="text"
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="Your name"
+                      placeholder="Tu nombre"
                       required
                       className="bg-input border-border"
                     />
                   </div>
                   <div>
                     <label className="text-sm font-medium text-foreground mb-2 block">
-                      Email
+                      Correo
                     </label>
                     <Input
                       type="email"
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="Your email"
+                      placeholder="Tu correo"
                       required
                       className="bg-input border-border"
                     />
@@ -136,14 +136,14 @@ export default function ContactSection() {
 
                 <div>
                   <label className="text-sm font-medium text-foreground mb-2 block">
-                    Subject
+                    Asunto
                   </label>
                   <Input
                     type="text"
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    placeholder="What is this about?"
+                    placeholder="¿De qué se trata?"
                     required
                     className="bg-input border-border"
                   />
@@ -151,13 +151,13 @@ export default function ContactSection() {
 
                 <div>
                   <label className="text-sm font-medium text-foreground mb-2 block">
-                    Message
+                    Mensaje
                   </label>
                   <textarea
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Your message..."
+                    placeholder="Tu mensaje..."
                     required
                     rows={5}
                     className="w-full px-4 py-2 rounded-lg bg-input border border-border text-foreground placeholder:text-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary/50"
@@ -170,7 +170,7 @@ export default function ContactSection() {
                     animate={{ opacity: 1, y: 0 }}
                     className="p-4 rounded-lg bg-accent/10 border border-accent text-accent"
                   >
-                    Thank you for your message! We&apos;ll get back to you soon.
+                    ¡Gracias por tu mensaje! Nos comunicaremos pronto.
                   </motion.div>
                 )}
 
@@ -179,7 +179,7 @@ export default function ContactSection() {
                   size="lg"
                   className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
                 >
-                  Send Message
+                  Enviar Mensaje
                 </Button>
               </form>
             </Card>

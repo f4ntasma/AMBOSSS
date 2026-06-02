@@ -5,23 +5,23 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const footerLinks = {
-    Platform: [
-      { label: 'Notes', href: '#' },
+    Plataforma: [
+      { label: 'Notas', href: '#' },
       { label: 'Blog', href: '#' },
-      { label: 'Resources', href: '#' },
-      { label: 'Community', href: '#' },
+      { label: 'Recursos', href: '#' },
+      { label: 'Comunidad', href: '#' },
     ],
-    Resources: [
-      { label: 'Study Tools', href: '#' },
-      { label: 'Clinical Cases', href: '#' },
-      { label: 'ENAM Prep', href: '#' },
-      { label: 'Internship Guide', href: '#' },
+    Recursos: [
+      { label: 'Herramientas de Estudio', href: '#' },
+      { label: 'Casos Clínicos', href: '#' },
+      { label: 'Preparación ENAM', href: '#' },
+      { label: 'Guía de Internado', href: '#' },
     ],
-    Company: [
-      { label: 'About', href: '#' },
-      { label: 'Contact', href: '#' },
-      { label: 'Privacy', href: '#' },
-      { label: 'Terms', href: '#' },
+    Empresa: [
+      { label: 'Acerca de', href: '#' },
+      { label: 'Contacto', href: '#' },
+      { label: 'Privacidad', href: '#' },
+      { label: 'Términos', href: '#' },
     ],
   }
 
@@ -38,7 +38,7 @@ export default function Footer() {
               <span className="font-bold">MedEd</span>
             </div>
             <p className="text-sm text-foreground/60">
-              Empowering medical students with comprehensive education resources and community support.
+              Empoderando a estudiantes de medicina con recursos educativos integrales y apoyo comunitario.
             </p>
             <div className="flex gap-4 mt-4">
               <Link href="#" className="text-foreground/60 hover:text-foreground transition-colors">
@@ -76,14 +76,14 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-border/40 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-foreground/60">
-            &copy; {currentYear} MedEd. All rights reserved.
+            &copy; {currentYear} MedEd. Todos los derechos reservados.
           </p>
           <div className="flex gap-4 text-sm">
             <Link href="#" className="text-foreground/60 hover:text-foreground transition-colors">
-              Privacy Policy
+              Política de Privacidad
             </Link>
             <Link href="#" className="text-foreground/60 hover:text-foreground transition-colors">
-              Terms of Service
+              Términos de Servicio
             </Link>
           </div>
         </div>

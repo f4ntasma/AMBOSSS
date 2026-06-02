@@ -16,11 +16,11 @@ export default function Navbar() {
   }, [])
 
   const navLinks = [
-    { href: '#about', label: 'About' },
-    { href: '#notes', label: 'Notes' },
+    { href: '#about', label: 'Acerca de' },
+    { href: '#notes', label: 'Notas' },
     { href: '#blog', label: 'Blog' },
-    { href: '#resources', label: 'Resources' },
-    { href: '#contact', label: 'Contact' },
+    { href: '#resources', label: 'Recursos' },
+    { href: '#contact', label: 'Contacto' },
   ]
 
   return (

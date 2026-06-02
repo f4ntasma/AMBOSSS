@@ -26,46 +26,46 @@ export default function AboutSection() {
   const timeline = [
     {
       year: '2020',
-      title: 'Started Medical School',
-      description: 'Began my journey at National University of Mexico',
+      title: 'Inicio de la Carrera',
+      description: 'Comencé mi viaje en la Universidad Nacional de México',
     },
     {
       year: '2021',
-      title: 'Basic Sciences',
-      description: 'Focused on anatomy, biochemistry, and physiology',
+      title: 'Ciencias Básicas',
+      description: 'Me enfoqué en anatomía, bioquímica y fisiología',
     },
     {
       year: '2023',
-      title: 'Clinical Rotations',
-      description: 'Started clinical practice in various specialties',
+      title: 'Rotaciones Clínicas',
+      description: 'Comencé la práctica clínica en varias especialidades',
     },
     {
       year: '2024',
-      title: 'Internship Preparation',
-      description: 'Preparing for ENAM and specialized internships',
+      title: 'Preparación de Internado',
+      description: 'Preparándome para ENAM e internados especializados',
     },
   ]
 
   const highlights = [
     {
       icon: <BookOpen className="w-6 h-6" />,
-      title: 'Comprehensive Learning',
-      description: 'Master fundamental and clinical medical knowledge',
+      title: 'Aprendizaje Integral',
+      description: 'Domina conocimientos médicos fundamentales y clínicos',
     },
     {
       icon: <Stethoscope className="w-6 h-6" />,
-      title: 'Clinical Excellence',
-      description: 'Develop practical skills through real cases',
+      title: 'Excelencia Clínica',
+      description: 'Desarrolla habilidades prácticas a través de casos reales',
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: 'Exam Preparation',
-      description: 'Ace ENAM, ECOE, and specialty exams',
+      title: 'Preparación para Exámenes',
+      description: 'Domina los exámenes ENAM, ECOE y especializados',
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: 'Community Support',
-      description: 'Connect with peers and experienced mentors',
+      title: 'Apoyo Comunitario',
+      description: 'Conecta con compañeros y mentores experimentados',
     },
   ]
 
@@ -79,16 +79,16 @@ export default function AboutSection() {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-            About This Platform
+            Acerca de esta Plataforma
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl">
-            A comprehensive resource created to support medical students through every stage of their education, from basic sciences to internship preparation.
+            Un recurso integral creado para apoyar a los estudiantes de medicina en cada etapa de su educación, desde ciencias básicas hasta la preparación del internado.
           </p>
         </motion.div>
 
         {/* Timeline */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold mb-8">Educational Journey</h3>
+          <h3 className="text-2xl font-bold mb-8">Mi Trayectoria Educativa</h3>
           <motion.div
             variants={containerVariants}
             initial="hidden"
@@ -116,7 +116,7 @@ export default function AboutSection() {
 
         {/* Highlights */}
         <div>
-          <h3 className="text-2xl font-bold mb-8">What You&apos;ll Find Here</h3>
+          <h3 className="text-2xl font-bold mb-8">Qué Encontrarás Aquí</h3>
           <motion.div
             variants={containerVariants}
             initial="hidden"

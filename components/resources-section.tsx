@@ -32,52 +32,52 @@ export default function ResourcesSection() {
   const studyTools = [
     {
       icon: <Brain className="w-6 h-6" />,
-      title: 'Mnemonics & Memory Aids',
-      description: 'Clever acronyms and memory techniques for complex medical concepts',
+      title: 'Mnemotecnias y Ayudas de Memoria',
+      description: 'Acrónimos ingeniosos y técnicas de memoria para conceptos médicos complejos',
     },
     {
       icon: <BookMarked className="w-6 h-6" />,
-      title: 'Flashcard Sets',
-      description: 'Spaced repetition flashcards covering anatomy, physiology, and pathology',
+      title: 'Conjuntos de Tarjetas',
+      description: 'Tarjetas de repetición espaciada que cubren anatomía, fisiología y patología',
     },
     {
       icon: <BarChart3 className="w-6 h-6" />,
-      title: 'Study Guides',
-      description: 'Comprehensive guides for exam preparation and clinical rotations',
+      title: 'Guías de Estudio',
+      description: 'Guías integrales para preparación de exámenes y rotaciones clínicas',
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: 'Group Study Resources',
-      description: 'Materials designed for collaborative learning and discussion',
+      title: 'Recursos de Estudio Grupal',
+      description: 'Materiales diseñados para aprendizaje colaborativo y discusión',
     },
   ]
 
   const recommendations = [
     {
-      category: 'Textbooks',
+      category: 'Libros de Texto',
       items: [
         'Robbins & Cotran Pathologic Basis of Disease',
         'Guyton & Hall Textbook of Medical Physiology',
         'Harrison\'s Principles of Internal Medicine',
-        'Gray\'s Anatomy for Students',
+        'Anatomía de Gray para Estudiantes',
       ],
     },
     {
-      category: 'Apps & Platforms',
+      category: 'Aplicaciones y Plataformas',
       items: [
-        'Anki - Spaced repetition flashcards',
-        'Osmosis - Video learning platform',
-        'NEJM Knowledge+ - Journal content',
-        'Medscape - Medical news and references',
+        'Anki - Tarjetas de repetición espaciada',
+        'Osmosis - Plataforma de aprendizaje por video',
+        'NEJM Knowledge+ - Contenido de revistas',
+        'Medscape - Noticias médicas y referencias',
       ],
     },
     {
-      category: 'Clinical Resources',
+      category: 'Recursos Clínicos',
       items: [
-        'UpToDate - Evidence-based clinical information',
-        'PubMed - Medical literature database',
-        'DynaMed - Point-of-care medical information',
-        'Radiopaedia - Radiology learning platform',
+        'UpToDate - Información clínica basada en evidencia',
+        'PubMed - Base de datos de literatura médica',
+        'DynaMed - Información médica punto de atención',
+        'Radiopaedia - Plataforma de aprendizaje de radiología',
       ],
     },
   ]
@@ -92,16 +92,16 @@ export default function ResourcesSection() {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-            Study Tools & Resources
+            Herramientas y Recursos de Estudio
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl">
-            Everything you need to study effectively, from mnemonics to clinical references.
+            Todo lo que necesitas para estudiar de manera efectiva, desde mnemotecnias hasta referencias clínicas.
           </p>
         </motion.div>
 
         {/* Study Tools */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold mb-8">Available Study Tools</h3>
+          <h3 className="text-2xl font-bold mb-8">Herramientas de Estudio Disponibles</h3>
           <motion.div
             variants={containerVariants}
             initial="hidden"
@@ -129,7 +129,7 @@ export default function ResourcesSection() {
 
         {/* Recommendations Accordion */}
         <div>
-          <h3 className="text-2xl font-bold mb-8">Recommended Resources</h3>
+          <h3 className="text-2xl font-bold mb-8">Recursos Recomendados</h3>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

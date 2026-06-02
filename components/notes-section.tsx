@@ -11,51 +11,51 @@ export default function NotesSection() {
 
   const categories = ['all', 'basic-sciences', 'clinical', 'pharmacology']
   const categoryLabels = {
-    'all': 'All Notes',
-    'basic-sciences': 'Basic Sciences',
-    'clinical': 'Clinical',
-    'pharmacology': 'Pharmacology',
+    'all': 'Todas las Notas',
+    'basic-sciences': 'Ciencias Básicas',
+    'clinical': 'Clínica',
+    'pharmacology': 'Farmacología',
   }
 
   const notes = [
     {
       id: 1,
-      title: 'Anatomy: Cardiovascular System',
+      title: 'Anatomía: Sistema Cardiovascular',
       category: 'basic-sciences',
       downloads: 234,
       rating: 4.8,
     },
     {
       id: 2,
-      title: 'Biochemistry: Metabolism',
+      title: 'Bioquímica: Metabolismo',
       category: 'basic-sciences',
       downloads: 189,
       rating: 4.6,
     },
     {
       id: 3,
-      title: 'Pathophysiology: Heart Failure',
+      title: 'Fisiopatología: Insuficiencia Cardíaca',
       category: 'clinical',
       downloads: 312,
       rating: 4.9,
     },
     {
       id: 4,
-      title: 'Clinical Diagnosis: Hypertension',
+      title: 'Diagnóstico Clínico: Hipertensión',
       category: 'clinical',
       downloads: 267,
       rating: 4.7,
     },
     {
       id: 5,
-      title: 'Drug Interactions Guide',
+      title: 'Guía de Interacciones Farmacológicas',
       category: 'pharmacology',
       downloads: 198,
       rating: 4.5,
     },
     {
       id: 6,
-      title: 'Antimicrobial Therapy',
+      title: 'Terapia Antimicrobiana',
       category: 'pharmacology',
       downloads: 245,
       rating: 4.8,
@@ -94,10 +94,10 @@ export default function NotesSection() {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-            Study Notes Bank
+            Banco de Notas de Estudio
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl">
-            Comprehensive, organized notes covering basic sciences, clinical knowledge, and pharmacology.
+            Notas integrales y organizadas que cubren ciencias básicas, conocimiento clínico y farmacología.
           </p>
         </motion.div>
 
@@ -152,14 +152,14 @@ export default function NotesSection() {
                   </h3>
 
                   <div className="flex items-center justify-between text-sm text-foreground/60 mb-4">
-                    <span>{note.downloads} downloads</span>
+                    <span>{note.downloads} descargas</span>
                     <span className="flex items-center gap-1">
                       ⭐ {note.rating}
                     </span>
                   </div>
 
                   <Button variant="outline" size="sm" className="w-full">
-                    Download Note
+                    Descargar Nota
                   </Button>
                 </Card>
               </motion.div>
