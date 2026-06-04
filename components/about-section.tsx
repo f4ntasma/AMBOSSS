@@ -25,22 +25,18 @@ export default function AboutSection() {
 
   const timeline = [
     {
-      year: '2020',
       title: 'Inicio de la Carrera',
       description: 'Comencé mi viaje en la Universidad Nacional de México',
     },
     {
-      year: '2021',
       title: 'Ciencias Básicas',
       description: 'Me enfoqué en anatomía, bioquímica y fisiología',
     },
     {
-      year: '2023',
       title: 'Rotaciones Clínicas',
       description: 'Comencé la práctica clínica en varias especialidades',
     },
     {
-      year: '2024',
       title: 'Preparación de Internado',
       description: 'Preparándome para ENAM e internados especializados',
     },
@@ -78,12 +74,77 @@ export default function AboutSection() {
           viewport={{ once: true }}
           className="mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-            Acerca de esta Plataforma
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight mb-4">
+            La trayectoria educativa de un estudiante de Medicina en Perú suele seguir este recorrido:
           </h2>
-          <p className="text-lg text-foreground/70 max-w-2xl">
-            Un recurso integral creado para apoyar a los estudiantes de medicina en cada etapa de su educación, desde ciencias básicas hasta la preparación del internado.
-          </p>
+          <div className="text-lg text-foreground/70 max-w-2xl">
+            <p className="mb-2">
+              1. Primer al tercer año (1° a 6° ciclo): Ciencias básicas
+            </p>
+            
+            <p className="mb-2 font-bold tracking-tight">
+              Durante los primeros ciclos se estudian las bases científicas de la medicina. Los cursos más comunes incluyen:
+            </p>
+
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Anatomía Humana</li>
+              <li>Histología y Embriología</li>
+              <li>Bioquímica</li>
+              <li>Fisiología</li>
+              <li>Microbiología</li>
+              <li>Inmunología</li>
+              <li>Genética</li>
+              <li>Farmacología</li>
+              <li>Salud Pública</li>
+              <li>Metodología de la Investigación</li>
+            </ul>
+
+            <p className="mb-2 mt-4 ">
+              En esta etapa el estudiante desarolla conocimientos sobre el funcionamiento normal del cuerpo humano y comienza a tener contacto limitado con paciente.
+            </p>
+
+            <p className="mb-2 font-bold tracking-tight">
+              2. Cuarto y quinto año (7° al 10° ciclo): Formación clínica
+            </p>
+            
+            <p className="mb-2;">
+              El estudiante empieza a aplicar los conocimientos básicos en escenarios clínicos y hospitalarios. Las asignatura suelen incluir:
+            </p>
+
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Medicina Interna</li>
+              <li>Cirugía</li>
+              <li>Pediatría</li>
+              <li>Ginecología y Obstetricia</li>
+              <li>Psiquiatría</li>
+              <li>Neurología</li>
+              <li>Dermatología</li>
+              <li>Diagnóstico por Imágenes</li>
+            </ul>
+
+            <p className="mb-2 mt-4">
+              Además, realiza prácticas en hospitales y centros de salud bajo supervisión docente.
+            </p>
+            <p className="mb-2 font-bold">
+              3. Sexto año (11° y 12° ciclo): Externado o práctica clínica avanzada
+            </p>
+            
+            <p className="mb-2">
+              En muchas universidades el estudiante pasa más tiempo en hospitales, participando en la atención de pacientes y desarrollando habilidades clínicas avanzadas. Aprenden a:
+            </p>
+
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Elaborar historias clínicas.</li>
+              <li>Realizar exámenes físicos.</li>
+              <li>Interpretar exámenes auxiliares.</li>
+              <li>Participar en discuciones de casos clínicos.</li>
+            </ul>
+
+            <p className="mb-2 mt-4">
+              Esta etapa sirve de preparación para el internado.
+            </p>
+
+          </div>
         </motion.div>
 
         {/* Timeline */}

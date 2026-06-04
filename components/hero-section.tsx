@@ -47,14 +47,14 @@ export default function HeroSection() {
           variants={itemVariants}
           className="text-5xl md:text-6xl font-bold tracking-tight mb-6"
         >
-          Domina el Conocimiento Médico con <span className="text-primary">MedEd</span>
+          Domina el Conocimiento Médico con <span className="text-primary">AMBOSS</span>
         </motion.h1>
 
         <motion.p
           variants={itemVariants}
           className="text-xl text-foreground/70 mb-8 max-w-2xl mx-auto"
         >
-          Recursos de estudio integrales, casos clínicos, herramientas de preparación para exámenes y una comunidad solidaria para estudiantes de medicina. Tu compañero completo para el éxito en la educación médica.
+          Brindar orientación y recursos útiles a los estudiantes de Medicina de primeros ciclos, facilitando su adaptación a la vida universitaria y fortaleciendo sus habilidades de estudio, organización y bienestar para lograr un mejor desarrollo académico y profesional.
         </motion.p>
 
         <motion.div
@@ -62,11 +62,15 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+          <a href="https://drive.google.com/drive/folders/1EsPPrkcpjyllIMLLB0mFSYgWbAez9cRg?usp=sharing" className="flex items-center gap-2" target="_blank" rel="noopener noreferrer">
             Explorar Recursos
             <ArrowRight className="ml-2 w-4 h-4" />
+            </a>
           </Button>
           <Button size="lg" variant="outline">
+            <a href="#contact" className="flex items-center gap-2">
             Saber más
+            </a>
           </Button>
         </motion.div>
 

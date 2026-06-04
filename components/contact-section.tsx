@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { Mail, Phone, MapPin } from 'lucide-react'
+import { Mail, Phone, MapPin, Hash } from 'lucide-react'
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -36,17 +36,17 @@ export default function ContactSection() {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Correo',
-      value: 'contacto@meded.com',
+      value: 'cielo.acuna@upsjb.edu.pe',
     },
     {
-      icon: <Phone className="w-6 h-6" />,
-      label: 'Teléfono',
-      value: '+52 (555) 123-4567',
+      icon: <Hash className="w-6 h-6" />,
+      label: 'Ciclo',
+      value: '1° ',
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: 'Ubicación',
-      value: 'Ciudad de México, México',
+      value: 'Ciudad de Lima, Perú',
     },
   ]
 
@@ -178,8 +178,9 @@ export default function ContactSection() {
                   type="submit"
                   size="lg"
                   className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
-                >
+                ><a href="cielo.acuna@upsjb.edu.pe">
                   Enviar Mensaje
+                  </a>
                 </Button>
               </form>
             </Card>

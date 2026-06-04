@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'MedEd - Medical Student Portfolio',
+  title: 'AMBOSS',
   description: 'Comprehensive medical education resource platform with study notes, clinical cases, and exam preparation',
   generator: 'v0.app',
   icons: {

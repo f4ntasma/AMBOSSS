@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Github, Linkedin, Twitter } from 'lucide-react'
+import { Github, Linkedin, Mail, Twitter } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -33,22 +33,16 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-bold">
-                M
+                A
               </div>
-              <span className="font-bold">MedEd</span>
+              <span className="font-bold">AMBOSS</span>
             </div>
             <p className="text-sm text-foreground/60">
               Empoderando a estudiantes de medicina con recursos educativos integrales y apoyo comunitario.
             </p>
             <div className="flex gap-4 mt-4">
-              <Link href="#" className="text-foreground/60 hover:text-foreground transition-colors">
-                <Twitter className="w-4 h-4" />
-              </Link>
-              <Link href="#" className="text-foreground/60 hover:text-foreground transition-colors">
-                <Linkedin className="w-4 h-4" />
-              </Link>
-              <Link href="#" className="text-foreground/60 hover:text-foreground transition-colors">
-                <Github className="w-4 h-4" />
+              <Link href="cielo.acuna@upsjb.edu.pe" className="text-foreground/60 hover:text-foreground transition-colors">
+                <Mail className="w-4 h-4" />
               </Link>
             </div>
           </div>
@@ -76,16 +70,8 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-border/40 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-foreground/60">
-            &copy; {currentYear} MedEd. Todos los derechos reservados.
+            &copy; {currentYear} AMBOSS. Todos los derechos reservados.
           </p>
-          <div className="flex gap-4 text-sm">
-            <Link href="#" className="text-foreground/60 hover:text-foreground transition-colors">
-              Política de Privacidad
-            </Link>
-            <Link href="#" className="text-foreground/60 hover:text-foreground transition-colors">
-              Términos de Servicio
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
