@@ -67,7 +67,7 @@ export default function AboutSection() {
 
   return (
     <section id="about" className="py-16 md:py-24 bg-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -234,6 +234,283 @@ export default function AboutSection() {
               <li>Atención plena (mindfulness").</li>
               <li>Ejercicios de respirción profunda.</li>
               <li>Relajación muscular progresiva.</li>
+            </ul>
+          <p className="mb-2">
+              6. Mantener una red de apoyo
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Compartir experiencias con compañeros de estudio.</li>
+              <li>Conversar con familiares y amigos.</li>
+              <li>Buscar apoyo de docentes o tutores cuando sea necesario.</li>
+            </ul>
+          <p className="mb-2">
+              7. Evitar el perfeccionismo excesivo
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Reconocer que no es posible saberlo todo</li>
+              <li>Aceptar los errores como parte del aprendizaje.</li>
+              <li>Establecer expectativas realistas sobre el rendimiento académico.</li>
+            </ul>
+          <p className="mb-2">
+              8. Reservar tiempo para actividades recreativas 
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Practicar hobbies.</li>
+              <li>Escuchar música.</li>
+              <li>Leer por placer.</li>
+              <li>Participar en actividades culturales o deportivas.</li>
+            </ul>
+          <p className="mb-2">
+              9. Identificar signos tempranos de estrés 
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Irritabilidad.</li>
+              <li>Fatiga constante.</li>
+              <li>Problemas de concentración.</li>
+              <li>Alteraciones del sueño.</li>
+              <li>Dolores de cabeza frecuentes.</li>
+            </ul>
+
+          <p className="mb-2">
+              Reconocer estos signos permite actuar antes de que el estrés afecte la salud física o mental.
+            </p>
+          <p className="mb-2">
+              10. Buscar ayuda profesional cuando sea necesario 
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Acudir a servicios de consejería psicológica de la universidad.</li>
+              <li>Consultar con un profesional de salud mental si el estrés se vuelve persistente o afecta significativamente la vida diaria.</li>
+            </ul>
+
+          <p className="mb-2">
+              Recomendación para estudiantes de Medicina.
+            </p>
+
+            <p className="mb-2">
+               Una estrategia práctica es aplicar la regla 8-8-8 cuando sea posible: 
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>8 horas para dormir.</li>
+              <li>8 horas para actividades académicas.</li>
+              <li>8 horas para actividades personales, alimentación, ejercicio y descanso.</li>
+            </ul>
+
+          <h2 className="text-2xl md:text-4xl font-bold tracking-tight mb-4">
+            <br/>Tips adicionales para Medicina:
+          </h2>
+
+          <p className="mb-2">
+              1. Repetición espaciada (Spaced Repetition)
+            </p>
+
+            <p className="mb-2">
+               Consiste en repasar la información en intervalos cada vez más largos para evitar el olvido. 
+          </p>
+            <p className="mb-2">
+               Cómo aplicarlo:
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Revisar el tema el mismo día que se estudia.</li>
+              <li>Repasarlo nuevamente a los 2-3 días.</li>
+              <li>Volver a revisarlo una semana después.</li>
+              <li>Realizar repasos mensuales..</li>
+            </ul>
+            <p className="mb-2">
+               Ventajas:
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Mejora la retención a largo plazo.</li>
+              <li>Reduce el tiempo de estudio antes de los exámenes.</li>
+            </ul>
+          <p className="mb-2">
+              2. Recuperación activa (Active Recall)
+            </p>
+
+            <p className="mb-2">
+               Consiste en intentar recordar la información sin mirar los apuntes. 
+          </p>
+            <p className="mb-2">
+               Ejemplos:
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Responder preguntas de memoria.</li>
+              <li>Explicar un tema sin leer.</li>
+              <li>Resolver casos clínicos.</li>
+            </ul>
+            <p className="mb-2">
+               Ventajas:
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Fortalece la memoria.</li>
+              <li>Permite identificar vacíos de conocimientos.</li>
+            </ul>
+          <p className="mb-2">
+              3. Método Feynman
+            </p>
+
+            <p className="mb-2">
+               Consiste en explicar un tema con palabras simples, como si se enseñara a alguien sin conocimientos previos. 
+          </p>
+            <p className="mb-2">
+               Pasos:
+          </p>
+            
+            <ol className="list-disc ml-8 mt-2 space-y-1">
+              <li>1. Estudiar el tema.</li>
+              <li>2. Explicarlo con lenguaje sencillo.</li>
+              <li>3. Detectar lo que no se comprende bien.</li>
+              <li>4. Volver a estudiar esos puntos.</li>
+            </ol>
+            <p className="mb-2">
+               Ideal para:
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Fisiología.</li>
+              <li>Farmacología.</li>
+              <li>Patología.</li>
+              <li>Medicina Interna.</li>
+            </ul>
+
+            <p className="mb-2">
+              4. Mapas conceptuales
+            </p>
+
+            <p className="mb-2">
+               Permiten organizar y relacionar conceptos visualmente.
+          </p>
+            <p className="mb-2">
+               Útiles para:
+          </p>
+            
+            <ol className="list-disc ml-8 mt-2 space-y-1">
+              <li>Fisiopatología.</li>
+              <li>Inmunología.</li>
+              <li>Microbiología.</li>
+              <li>Endocrinología.</li>
+            </ol>
+            <p className="mb-2">
+                Ayudan a comprender relaciones entre enfermedades, síntomas y tratamientos.
+          </p>
+
+          <p className="mb-2">
+              5. Estudio basado en casos clínicos
+            </p>
+
+            <p className="mb-2">
+              Consiste en aplicar los conocimientos a situaciones reales o simuladas.
+          </p>
+            <p className="mb-2">
+              Ejemplo: <br/>En lugar de memorizar los síntomas de diabetes, analizar el caso de un paciente con poliuria, polidipsia y pérdida de peso.
+          </p>
+            <p className="mb-2">
+              Ventajas:
+          </p>
+            
+            <ol className="list-disc ml-8 mt-2 space-y-1">
+              <li>Favorece el razonamiento clínico.</li>
+              <li>Facilita el aprendizaje significativo.</li>
+            </ol>
+          <p className="mb-2">
+              6. Técnica Pomodoro
+            </p>
+
+            <p className="mb-2">
+              Método de gestión del tiempo.
+          </p>
+            <p className="mb-2">
+              Procedimiento:
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Estudiar 25 minutos.</li>
+              <li>Descansar 5 minutos.</li>
+              <li>Repetir 4 ciclos.</li>
+              <li>Tomar un descanso más largo de 15 a 30 minutos.</li>
+            </ul>
+            <p className="mb-2">
+              Beneficios:
+          </p>
+            
+            <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Mantiene la conecntración.</li>
+              <li>Reduce la fatiga mental.</li>
+            </ul>
+
+          <p className="mb-2">
+              7. Elaboración de resúmenes inteligentes
+            </p>
+
+            <p className="mb-2">
+              No copiar todo el tema.
+          </p>
+            <p className="mb-2">
+              Se recomienda:
+          </p>
+            
+              <ul className="list-disc ml-8 mt-2 space-y-1">
+                <li>Escribir solo ideas clave.</li>
+                <li>Utilizar cuadros comparativos.</li>
+                <li>Resumir algoritmos diagnósticos y terapéuticos.</li>
+              </ul>
+          <p className="mb-2">
+              8. Uso de reglas mnemotécnicas
+            </p>
+
+            <p className="mb-2">
+              Ayudan a recordar listas complejas.
+          </p>
+            <p className="mb-2">
+              Ejemplo: <br/>Para recordar los pares craneales se utilizan frases o acrónimos diseñados para memorizar el orden y función de cada nervio.
+          </p>
+
+          <p className="mb-2">
+              9. Grupos de estudio
+            </p>
+
+            <p className="mb-2">
+              Funcionan mejor cuando:
+          </p>
+
+          <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Son pequeños (3 a 5 integrantes).</li>
+              <li>Cada miembro explica un tema.</li>
+              <li>Se discuten preguntas y casos clínicos.</li>
+            </ul>
+            <p className="mb-2">
+              Ventajas:
+          </p>
+
+          <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Refuerzan el aprendizaje activo.</li>
+              <li>Mejoran la comunicación médica.</li>
+            </ul>
+
+          <p className="mb-2">
+              10. Banco de preguntas y simulacros
+            </p>
+
+            <p className="mb-2">
+              Resolver preguntas de exámenes anteriores o simulacros.
+          </p>
+            <p className="mb-2">
+              Beneficios:
+          </p>
+
+          <ul className="list-disc ml-8 mt-2 space-y-1">
+              <li>Identifica temas débiles.</li>
+              <li>Entrena el razonamiento clínico.</li>
+              <li>Reduce la ansiedad ante los exámenes.</li>
             </ul>
 
           </div>
