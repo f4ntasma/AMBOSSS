@@ -159,7 +159,7 @@ export default function NotesSection() {
                   </div>
 
                   <Button variant="outline" size="sm" className="w-full">
-                    Descargar Nota
+                    Descargar contenido
                   </Button>
                 </Card>
               </motion.div>

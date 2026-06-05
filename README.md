@@ -1,6 +1,6 @@
 # AMBOSSS
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+![Pagina principal](image.png)
 
 ## Built with v0
 
