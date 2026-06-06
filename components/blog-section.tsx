@@ -27,57 +27,9 @@ export default function BlogSection() {
   const articles = [
     {
       id: 1,
-      title: 'Dominando ENAM: Guía de Estudio Integral',
-      excerpt: 'Aprende estrategias efectivas para prepararte para el Examen Nacional de Medicina con técnicas de estudio comprobadas.',
-      author: 'Dra. María González',
-      date: '15 Mar, 2024',
-      category: 'Preparación ENAM',
-      readTime: '8 min de lectura',
-    },
-    {
-      id: 2,
-      title: 'Razonamiento Clínico en el Diagnóstico',
-      excerpt: 'Desarrolla enfoques sistemáticos para diagnóstico diferencial en escenarios clínicos reales.',
-      author: 'Dr. Carlos López',
-      date: '12 Mar, 2024',
-      category: 'Habilidades Clínicas',
-      readTime: '10 min de lectura',
-    },
-    {
-      id: 3,
-      title: 'Comprendiendo la Farmacocinética',
-      excerpt: 'Inmersión profunda en principios de metabolismo, distribución y eliminación de fármacos.',
-      author: 'Dra. Ana Rodríguez',
-      date: '10 Mar, 2024',
-      category: 'Farmacología',
-      readTime: '12 min de lectura',
-    },
-    {
-      id: 4,
-      title: 'Salud Mental Durante la Carrera de Medicina',
-      excerpt: 'Estrategias para mantener el bienestar y prevenir el agotamiento en la educación médica.',
-      author: 'Dr. Roberto Martínez',
-      date: '8 Mar, 2024',
-      category: 'Bienestar',
-      readTime: '6 min de lectura',
-    },
-    {
-      id: 5,
-      title: 'Preparación para Entrevista de Internado',
-      excerpt: 'Consejos esenciales para impresionar a los entrevistadores durante tu proceso de selección de internado.',
-      author: 'Dra. Laura Sánchez',
-      date: '5 Mar, 2024',
-      category: 'Carrera',
-      readTime: '7 min de lectura',
-    },
-    {
-      id: 6,
-      title: 'Errores Diagnósticos Comunes',
-      excerpt: 'Aprende de los errores y evita fallas diagnósticas comunes en la práctica clínica.',
-      author: 'Dr. Miguel Fernández',
-      date: '1 Mar, 2024',
-      category: 'Habilidades Clínicas',
-      readTime: '9 min de lectura',
+      title: 'Avances tecnológicos en la medicina y su impacto',
+      excerpt: 'Los avances tecnológicos han revolucionado la medicina, mejorando el diagnóstico, tratamiento y prevención de enfermedades.',
+      author: 'Cielo Acuña Morales',
     },
   ]
 
@@ -122,16 +74,34 @@ export default function BlogSection() {
                     <User className="w-4 h-4" />
                     {articles[0].author}
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Calendar className="w-4 h-4" />
-                    {articles[0].date}
-                  </div>
-                  <span>{articles[0].readTime}</span>
                 </div>
-                <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-                  Leer Artículo
-                  <ArrowRight className="ml-2 w-4 h-4" />
-                </Button>
+                <p className="text-sm text-foreground/60 mb-6">
+                  <br/>Principales avances: <span className="text-primary">{articles[0].category}</span>
+                </p>
+                <ul className="list-disc list-inside text-sm text-foreground/60 mb-6">
+                  <li className="mb-3">Inteligencia Artificial: ayuda a detectar enfermedades y analizar datos médicos.</li>
+                  <li className="mb-3">Telemedicina: permite consultas médicas a distancia.</li>
+                  <li className="mb-3">Cirugía robótica: ofrece procedimientos más precisos y menos invasivos.</li>
+                  <li className="mb-3">Impresión 3D: facilita la creación de prótesis e implantes personalizados.</li>
+                  <li className="mb-3">Medicina genética: permite tratamientos adaptados a cada paciente.</li>
+                  <li className="mb-3">Vacunas modernas: han mejorado la prevención de enfermedades infecciosas.</li>
+                  <li className="mb-3">Dispositivos inteligentes: monitorean la salud en tiempo real.</li>
+                  <li>Diagnóstico por imágenes: permite detectar enfermedades con mayor precisión.</li>
+                </ul>
+
+                <p className="text-sm text-foreground/60 mb-6">
+                  <br/>Principales avances: <span className="text-primary">{articles[0].category}</span>
+                </p>
+                <ul className="list-disc list-inside text-sm text-foreground/60 mb-6">
+                  <li className="mb-3">Aumento de la esperanza de vida.</li>
+                  <li className="mb-3">Diagnósticos más rápidos y precisos.</li>
+                  <li className="mb-3">Tratamientos más efectivos y personalizados.</li>
+                  <li className="mb-3">Mejor acceso a la atención médica.</li>
+                  <li className="mb-3">Reducción de la mortalidad por diversas enfermedades.</li>
+                  <li className="mb-3">Mejora de la calidad de vida de millones de personas.</li>
+                </ul>
+                <div>
+                </div>
               </div>
             </div>
           </Card>
