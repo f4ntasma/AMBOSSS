@@ -67,11 +67,6 @@ export default function HeroSection() {
             <ArrowRight className="ml-2 w-4 h-4" />
             </a>
           </Button>
-          <Button size="lg" variant="outline">
-            <a href="#contact" className="flex items-center gap-2">
-            Saber más
-            </a>
-          </Button>
         </motion.div>
 
         {/* Feature highlights */}
